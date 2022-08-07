@@ -9,8 +9,6 @@ const puppeteer = require('puppeteer');
 		return elements;
 	})
 	await page.screenshot({path: 'example.png'});
-
-  await browser.close();
 	//console.log(movies);
-	//await browser.close();
+	await browser.close();
 })();
